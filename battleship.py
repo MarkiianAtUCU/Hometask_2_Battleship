@@ -111,7 +111,7 @@ class Field():
 
     def field_without_ships(self):
         """
-        (None) -> Str
+        (None) -> str
 
         Function returns formatted field without ships on it, but with hits
         """
@@ -137,7 +137,7 @@ class Field():
 
     def field_with_ships(self):
         """
-        (None) -> Str
+        (None) -> str
 
         Function returns formatted field
         """
@@ -249,7 +249,7 @@ class Game():
 
     def field_without_ships(self, index):
         """
-        (None) -> Str
+        (None) -> str
 
         Function returns formatted field without ships on it, but with hits
         """
@@ -257,7 +257,7 @@ class Game():
 
     def field_with_ships(self, index):
         """
-        (None) -> Str
+        (None) -> str
 
         Function returns formatted field
         """

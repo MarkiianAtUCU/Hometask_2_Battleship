@@ -35,7 +35,7 @@ def main():
     x = Game({first.get_name(): field_one, second.get_name(): field_two},
              [first, second], first)
     x.run()
-    if input("Play again?").uppercase() == "YES":
+    if input("Play again?").upper() == "YES":
         main()
 
 

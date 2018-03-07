@@ -48,8 +48,8 @@ def ship_size(data, coord):
     if (("up" in it and "down" in it) or ("up" in it) or ("down" in it))\
             and "central" in it:
         v = "vertical"
-    elif (("left" in it and "right" in it) or ("left" in it)
-          or ("right" in it)) and "central" in it:
+    elif (("left" in it and "right" in it) or ("left" in it) or
+          ("right" in it)) and "central" in it:
         v = "horizontal"
     elif len(it) == 1 and "central" in it:
         v = "central"

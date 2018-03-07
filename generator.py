@@ -58,7 +58,7 @@ def check_ship(coord, length, v):
     """
     (tuple, int, str) -> bool
 
-    Function checks if certain ship can be placed on blank field 
+    Function checks if certain ship can be placed on blank field
     """
     if v == "horizontal":
         if ord(coord[0])+length > 74:
